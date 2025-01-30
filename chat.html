@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style/index.css" />
+    <title>Chat</title>
+</head>
+<body class="black-color">
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-4">
+            <nav class="prompt-list">
+              <div class="prompt-list-header">
+                <img src="./images/stratforce.svg" />
+                <input class="input-primary" type="text">
+
+                <div class="folders">
+                  <div class="folder-title">
+                    <p class="neural-color font-weight-700 ">Folders</p>
+                    <div class="folder-btn">
+                      <div class="folders-btn disruptive-background"><svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 11 11" fill="none">
+                        <path d="M5.49984 2.29169V8.70835M2.2915 5.50002H8.70817" stroke="#050000" stroke-width="0.916667" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg></div>
+
+                      <div class="folders-btn insight-background"><svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 11 11" fill="none">
+                        <path d="M2.75 4.125L5.5 6.875L8.25 4.125" stroke="#FD5D04" stroke-width="0.916667" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg></div>
+                    </div>
+                  </div>
+
+                  <div class="folder-topic-section">
+                    <div class="folder-container-active">
+                      <div class="folder-title">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
+                          <path d="M10.2918 5.54167L9.40869 3.77539C9.15452 3.26705 9.02743 3.01287 8.83783 2.82717C8.67016 2.66295 8.46809 2.53806 8.24622 2.46154C7.99533 2.375 7.71116 2.375 7.14281 2.375H4.11683C3.23008 2.375 2.7867 2.375 2.44801 2.54757C2.15009 2.69937 1.90787 2.94159 1.75607 3.23952C1.5835 3.57821 1.5835 4.02158 1.5835 4.90833V5.54167M1.5835 5.54167H13.6168C14.947 5.54167 15.612 5.54167 16.1201 5.80053C16.5669 6.02823 16.9303 6.39155 17.158 6.83844C17.4168 7.34648 17.4168 8.01154 17.4168 9.34167V12.825C17.4168 14.1551 17.4168 14.8202 17.158 15.3282C16.9303 15.7751 16.5669 16.1384 16.1201 16.3661C15.612 16.625 14.947 16.625 13.6168 16.625H5.3835C4.05337 16.625 3.38831 16.625 2.88027 16.3661C2.43338 16.1384 2.07005 15.7751 1.84236 15.3282C1.5835 14.8202 1.5835 14.1551 1.5835 12.825V5.54167Z" stroke="#FD5D04" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <p class="margin-0 disruptive-color font-weight-700">EcoTech</p>
+                      </div>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
+                        <path d="M9.49984 10.2916C9.93706 10.2916 10.2915 9.93721 10.2915 9.49998C10.2915 9.06275 9.93706 8.70831 9.49984 8.70831C9.06261 8.70831 8.70817 9.06275 8.70817 9.49998C8.70817 9.93721 9.06261 10.2916 9.49984 10.2916Z" stroke="#FD5D04" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M15.0415 10.2916C15.4787 10.2916 15.8332 9.93721 15.8332 9.49998C15.8332 9.06275 15.4787 8.70831 15.0415 8.70831C14.6043 8.70831 14.2498 9.06275 14.2498 9.49998C14.2498 9.93721 14.6043 10.2916 15.0415 10.2916Z" stroke="#FD5D04" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M3.95817 10.2916C4.3954 10.2916 4.74984 9.93721 4.74984 9.49998C4.74984 9.06275 4.3954 8.70831 3.95817 8.70831C3.52095 8.70831 3.1665 9.06275 3.1665 9.49998C3.1665 9.93721 3.52095 10.2916 3.95817 10.2916Z" stroke="#FD5D04" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                    </div>
+  
+                    <div class="folder-container">
+                      <div class="folder-title">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
+                          <path d="M10.2918 5.54167L9.40869 3.77539C9.15452 3.26705 9.02743 3.01287 8.83783 2.82717C8.67016 2.66295 8.46809 2.53806 8.24622 2.46154C7.99533 2.375 7.71116 2.375 7.14281 2.375H4.11683C3.23008 2.375 2.7867 2.375 2.44801 2.54757C2.15009 2.69937 1.90787 2.94159 1.75607 3.23952C1.5835 3.57821 1.5835 4.02158 1.5835 4.90833V5.54167M1.5835 5.54167H13.6168C14.947 5.54167 15.612 5.54167 16.1201 5.80053C16.5669 6.02823 16.9303 6.39155 17.158 6.83844C17.4168 7.34648 17.4168 8.01154 17.4168 9.34167V12.825C17.4168 14.1551 17.4168 14.8202 17.158 15.3282C16.9303 15.7751 16.5669 16.1384 16.1201 16.3661C15.612 16.625 14.947 16.625 13.6168 16.625H5.3835C4.05337 16.625 3.38831 16.625 2.88027 16.3661C2.43338 16.1384 2.07005 15.7751 1.84236 15.3282C1.5835 14.8202 1.5835 14.1551 1.5835 12.825V5.54167Z" stroke="#FCFEFF" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <p class="margin-0 neural-color font-weight-700">EcoTech</p>
+                      </div>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
+                        <path d="M9.49984 10.2916C9.93706 10.2916 10.2915 9.93721 10.2915 9.49998C10.2915 9.06275 9.93706 8.70831 9.49984 8.70831C9.06261 8.70831 8.70817 9.06275 8.70817 9.49998C8.70817 9.93721 9.06261 10.2916 9.49984 10.2916Z" stroke="#FCFEFF" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M15.0415 10.2916C15.4787 10.2916 15.8332 9.93721 15.8332 9.49998C15.8332 9.06275 15.4787 8.70831 15.0415 8.70831C14.6043 8.70831 14.2498 9.06275 14.2498 9.49998C14.2498 9.93721 14.6043 10.2916 15.0415 10.2916Z" stroke="#FCFEFF" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M3.95817 10.2916C4.3954 10.2916 4.74984 9.93721 4.74984 9.49998C4.74984 9.06275 4.3954 8.70831 3.95817 8.70831C3.52095 8.70831 3.1665 9.06275 3.1665 9.49998C3.1665 9.93721 3.52095 10.2916 3.95817 10.2916Z" stroke="#FCFEFF" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                    </div>
+  
+                    <div class="folder-container">
+                      <div class="folder-title">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
+                          <path d="M10.2918 5.54167L9.40869 3.77539C9.15452 3.26705 9.02743 3.01287 8.83783 2.82717C8.67016 2.66295 8.46809 2.53806 8.24622 2.46154C7.99533 2.375 7.71116 2.375 7.14281 2.375H4.11683C3.23008 2.375 2.7867 2.375 2.44801 2.54757C2.15009 2.69937 1.90787 2.94159 1.75607 3.23952C1.5835 3.57821 1.5835 4.02158 1.5835 4.90833V5.54167M1.5835 5.54167H13.6168C14.947 5.54167 15.612 5.54167 16.1201 5.80053C16.5669 6.02823 16.9303 6.39155 17.158 6.83844C17.4168 7.34648 17.4168 8.01154 17.4168 9.34167V12.825C17.4168 14.1551 17.4168 14.8202 17.158 15.3282C16.9303 15.7751 16.5669 16.1384 16.1201 16.3661C15.612 16.625 14.947 16.625 13.6168 16.625H5.3835C4.05337 16.625 3.38831 16.625 2.88027 16.3661C2.43338 16.1384 2.07005 15.7751 1.84236 15.3282C1.5835 14.8202 1.5835 14.1551 1.5835 12.825V5.54167Z" stroke="#FCFEFF" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <p class="margin-0 neural-color font-weight-700">EcoTech</p>
+                      </div>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
+                        <path d="M9.49984 10.2916C9.93706 10.2916 10.2915 9.93721 10.2915 9.49998C10.2915 9.06275 9.93706 8.70831 9.49984 8.70831C9.06261 8.70831 8.70817 9.06275 8.70817 9.49998C8.70817 9.93721 9.06261 10.2916 9.49984 10.2916Z" stroke="#FCFEFF" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M15.0415 10.2916C15.4787 10.2916 15.8332 9.93721 15.8332 9.49998C15.8332 9.06275 15.4787 8.70831 15.0415 8.70831C14.6043 8.70831 14.2498 9.06275 14.2498 9.49998C14.2498 9.93721 14.6043 10.2916 15.0415 10.2916Z" stroke="#FCFEFF" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M3.95817 10.2916C4.3954 10.2916 4.74984 9.93721 4.74984 9.49998C4.74984 9.06275 4.3954 8.70831 3.95817 8.70831C3.52095 8.70831 3.1665 9.06275 3.1665 9.49998C3.1665 9.93721 3.52095 10.2916 3.95817 10.2916Z" stroke="#FCFEFF" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                    </div>
+  
+                    <div class="folder-container">
+                      <div class="folder-title">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
+                          <path d="M10.2918 5.54167L9.40869 3.77539C9.15452 3.26705 9.02743 3.01287 8.83783 2.82717C8.67016 2.66295 8.46809 2.53806 8.24622 2.46154C7.99533 2.375 7.71116 2.375 7.14281 2.375H4.11683C3.23008 2.375 2.7867 2.375 2.44801 2.54757C2.15009 2.69937 1.90787 2.94159 1.75607 3.23952C1.5835 3.57821 1.5835 4.02158 1.5835 4.90833V5.54167M1.5835 5.54167H13.6168C14.947 5.54167 15.612 5.54167 16.1201 5.80053C16.5669 6.02823 16.9303 6.39155 17.158 6.83844C17.4168 7.34648 17.4168 8.01154 17.4168 9.34167V12.825C17.4168 14.1551 17.4168 14.8202 17.158 15.3282C16.9303 15.7751 16.5669 16.1384 16.1201 16.3661C15.612 16.625 14.947 16.625 13.6168 16.625H5.3835C4.05337 16.625 3.38831 16.625 2.88027 16.3661C2.43338 16.1384 2.07005 15.7751 1.84236 15.3282C1.5835 14.8202 1.5835 14.1551 1.5835 12.825V5.54167Z" stroke="#FCFEFF" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <p class="margin-0 neural-color font-weight-700">EcoTech</p>
+                      </div>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
+                        <path d="M9.49984 10.2916C9.93706 10.2916 10.2915 9.93721 10.2915 9.49998C10.2915 9.06275 9.93706 8.70831 9.49984 8.70831C9.06261 8.70831 8.70817 9.06275 8.70817 9.49998C8.70817 9.93721 9.06261 10.2916 9.49984 10.2916Z" stroke="#FCFEFF" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M15.0415 10.2916C15.4787 10.2916 15.8332 9.93721 15.8332 9.49998C15.8332 9.06275 15.4787 8.70831 15.0415 8.70831C14.6043 8.70831 14.2498 9.06275 14.2498 9.49998C14.2498 9.93721 14.6043 10.2916 15.0415 10.2916Z" stroke="#FCFEFF" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M3.95817 10.2916C4.3954 10.2916 4.74984 9.93721 4.74984 9.49998C4.74984 9.06275 4.3954 8.70831 3.95817 8.70831C3.52095 8.70831 3.1665 9.06275 3.1665 9.49998C3.1665 9.93721 3.52095 10.2916 3.95817 10.2916Z" stroke="#FCFEFF" stroke-width="1.58333" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+            </nav>
+          </div>
+          <div class="col-8">col-8</div>
+        </div>
+      </div>
+    </section>
+</body>
+</html>
